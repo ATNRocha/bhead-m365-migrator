@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# User data / migration inputs
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.html
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.tmp
+
+# Test/output artifacts
+*_Relatorio_*.csv
+*_converted.xlsx
+*_test.xlsx
+
+# Private deployment profiles
+profiles/*.json
+!profiles/example_profile.json

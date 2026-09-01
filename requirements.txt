@@ -1,0 +1,2 @@
+streamlit>=1.38,<2
+XlsxWriter>=3.2,<4

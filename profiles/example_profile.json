@@ -1,0 +1,54 @@
+{
+  "name": "Perfil de exemplo — Excel Online / Microsoft 365",
+  "target": "Excel Online / Microsoft 365",
+  "sheet_names": [],
+  "styles": {
+    "green": {
+      "fill": "D4EDBC",
+      "font": "11734B"
+    },
+    "gray": {
+      "fill": "E8EAED",
+      "font": "000000"
+    }
+  },
+  "header_rules": [
+    {
+      "headers": ["STATUS"],
+      "start_row": 2,
+      "minimum_end_row": 1000,
+      "rules": [
+        {
+          "formula": "{cell}=\"Ativo\"",
+          "style": "green"
+        },
+        {
+          "formula": "{cell}=\"Inativo\"",
+          "style": "gray"
+        }
+      ],
+      "allowed_values": [
+        "Ativo",
+        "Inativo"
+      ]
+    }
+  ],
+  "freeze_header": true,
+  "autofilter": true,
+  "formula_rules": [],
+  "exact_formula_groups": [],
+  "date_columns": [
+    {
+      "headers": ["DATA"],
+      "number_format": "dd/mm/yyyy",
+      "start_row": 2,
+      "minimum_end_row": 1000,
+      "input_title": "Data",
+      "input_message": "Digite a data no formato DD/MM/AAAA.",
+      "error_title": "Data inválida",
+      "error_message": "Informe uma data válida no formato DD/MM/AAAA.",
+      "minimum_date": "1900-01-01",
+      "maximum_date": "2100-12-31"
+    }
+  ]
+}
