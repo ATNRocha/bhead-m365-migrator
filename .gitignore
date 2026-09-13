@@ -48,3 +48,6 @@ temp/
 # Private deployment profiles
 profiles/*.json
 !profiles/example_profile.json
+
+# Graphify analysis output
+graphify-out/
